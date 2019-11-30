@@ -6,6 +6,7 @@ import BasicPage from './BasicPage';
 import AboutPage from './AboutPage';
 import PhotosPage from './PhotosPage';
 import AccountPage from './AccountPage';
+import TestComponent from '../../testarea/TestComponent';
 
 const SettingsDashboard = () => {
   return (
@@ -17,6 +18,7 @@ const SettingsDashboard = () => {
           <Route path='/settings/about' component={AboutPage} />
           <Route path='/settings/photos' component={PhotosPage} />
           <Route path='/settings/account' component={AccountPage} />
+          <Route path='/test' component={TestComponent} />
         </Switch>
       </Grid.Column>
 
